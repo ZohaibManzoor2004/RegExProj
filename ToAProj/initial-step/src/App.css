@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the nav bar */
+.nav {
+  background-color: #4CAF50; /* Green background color */
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center the links */
+  align-items: center; /* Center the items vertically */
+  padding: 15px 0; /* Padding for top and bottom */
+}
+
+/* Styling for the links */
+.nav a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 15px; /* Space between the links */
+  font-size: 18px; /* Font size for the links */
+}
+
+/* Optional: Add hover effect for links */
+.nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

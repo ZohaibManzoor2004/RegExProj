@@ -1,0 +1,80 @@
+/* RecTable.css */
+
+.belownav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  
+  .searchbar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    flex: 1; /* Takes up remaining space */
+  }
+  
+  .searchbutton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .Return {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Return p {
+    margin: 5px 0;
+  }
+  
+  .srchdRecClass {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tabStyle {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tabStyle th,
+  .tabStyle td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabRawStyle {
+    background-color: bisque;
+  }
+  
+  .TabDatSt {
+    text-decoration: underline;
+  }
